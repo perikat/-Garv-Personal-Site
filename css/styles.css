@@ -29,7 +29,7 @@ h3{
 .top-container {
     background-color: #c1f3f7;
     position: relative;
-    padding-top: 150px;
+    padding: 150px;
 }
 
 .profile > img {
