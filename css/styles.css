@@ -3,10 +3,7 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif
 }
-.profile {
-    margin: 0;
-    background-color: #c1f3f7;
-}
+
 p{
     font-family: 'Montserrat' , sans-serif;
 }
@@ -32,24 +29,16 @@ h3{
 .top-container {
     background-color: #c1f3f7;
     position: relative;
-    padding: 150px;
-    
-
+    padding-top: 150px;
 }
 
 .profile > img {
-    margin: 0px;
     padding-top: 50px;
     height: 250px;
 }
-.middle-container { 
-}
-
-.skill-row {
-    margin: 100px auto 100px auto;
-    width: 50%;
-    text-align: left;
-    line-height: 2;
+.middle-container > img {
+    display: inline ;
+    
 }
 
 .bottom-container {
