@@ -1,11 +1,21 @@
 body{
+    color:#40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif
 }
 
+hr {
+   border: dotted lightgray 6px;
+   border-bottom: none;
+   width: 6%;
+   margin: 100px auto;
+
+}
+
 p{
     font-family: 'Montserrat' , sans-serif;
+    line-height: 2;
 }
 h1 {
     font-size: 6.5em;
@@ -19,6 +29,7 @@ h2 {
     font-size: 2em;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -29,16 +40,31 @@ h3{
 .top-container {
     background-color: #c1f3f7;
     position: relative;
-    padding: 150px;
+    padding-top: 150px;
 }
 
 .profile > img {
     padding-top: 50px;
     height: 250px;
 }
-.middle-container > img {
-    display: inline ;
-    
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chily {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .bottom-container {
@@ -51,7 +77,8 @@ h3{
 .bottom-container > p {
     position: relative;
     top: 80px;
-   font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
+    margin: 0;
 }
 
 .contact-me {
@@ -63,7 +90,10 @@ h3{
 .contact-me > a {
     text-decoration: none;
     font-size: 35px;
-    color: #11999E;;
+}
+a:hover {
+   color: #0a3a3b;
+   border-radius: 90px;
 }
 
 .pro {
@@ -92,4 +122,85 @@ h3{
     color:#11999E;
     margin-bottom: 0;
     text-decoration: none;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat' , sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #11999E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cd3d6;
+    text-decoration: none;
+  }
+
+  .card > img {
+      margin-top: 20px;
+      width: 250px;
+      margin-left: 00px;
+  }
+
+  .card {
+      text-align: center;
+      
+  }
+
+h5 {
+    font-family: 'Montserrat' , sans-serif;
+    color:#11999E;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    margin: 10px auto 10px auto;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 30px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+.card-title {
+    font-size: 25px;
+}
+
+.mountain {
+    width: 40%;
+    margin-top: 70px;
+    padding-bottom: 0px;
+}
+
+.top-cloud {
+    margin-right: 10%;
+}
+@media (max-width: 1020px ) {
+    .projects {
+        display: none;
+    }
 }
