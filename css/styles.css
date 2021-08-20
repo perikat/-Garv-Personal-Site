@@ -191,7 +191,7 @@ h5 {
 }
 
 .mountain {
-    width: 40%;
+    width: 30%;
     margin-top: 70px;
     padding-bottom: 0px;
 }
@@ -200,6 +200,12 @@ h5 {
     margin-right: 10%;
 }
 @media (max-width: 1020px ) {
+    .mountain{
+        width: 60%;
+    }
+    .bottom-cloud {
+        display: none;
+    }
     .projects {
         display: none;
     }
