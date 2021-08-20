@@ -209,4 +209,11 @@ h5 {
     .projects {
         display: none;
     }
+    .intro {
+        width: 50%;
+    }
+    .pfp {
+        width: 50%;
+        height: auto;
+    }
 }
